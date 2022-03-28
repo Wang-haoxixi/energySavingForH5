@@ -1,0 +1,22 @@
+{
+  "name": "icanforh5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "jodit": "^3.4.26",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://115.233.227.46:8066/passer/IcanForH5.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

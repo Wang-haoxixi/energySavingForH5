@@ -1,0 +1,252 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "组件宝",
+				"navigationBarTitleText": "智慧节能宝",
+				"titleNView": false
+			}
+		}, {
+			"path": "pages/service/service",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "客服小能"
+			}
+		}, {
+			"path": "pages/article/article",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "文章详情"
+			}
+		}, {
+			"path": "pages/agreement/agreement",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "组件宝平台服务协议"
+			}
+		}, {
+			"path": "pages/canerShare/canerShare",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "个人风采"
+			}
+		}, {
+			"path": "pages/soShare/soShare",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "so风采"
+			}
+		}, {
+			"path": "pages/creatMaterial/creatMaterial",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "发布专栏文章"
+			}
+		}, {
+			"path": "pages/material/material",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"titleNView": false
+			}
+		}, {
+			"path": "pages/editMaterial/editMaterial",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "编辑专栏文章"
+			}
+		}, {
+			"path": "pages/privacy/privacy",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "组件宝隐私条款"
+			}
+		}, {
+			"path": "pages/aboutIcan/aboutIcan",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "关于组件宝"
+			}
+		}, {
+			"path": "pages/productShare/productShare",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "产品详情"
+			}
+		}, {
+			"path": "pages/taskShare/taskShare",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "任务"
+			}
+		}, {
+			"path": "pages/404/404",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "访问页面丢失"
+			}
+		}, {
+			"path": "pages/summary/summary",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "纪要详情"
+			}
+		}, {
+			"path": "pages/Richtext/Richtext",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "详情"
+			}
+		}, {
+			"path": "pages/rules/rules",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "挖贝秘笈",
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/registration/registration",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "注册",
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/registration/account",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "注册",
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/registration/download",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "下载",
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/userFaith/userFaith",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "信用值规则",
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/preview/preview",
+			"style": {
+				"titleNView": false,
+				// "navigationBarTitleText": "红度规则",
+				"navigationBarTitleText": "活跃值规则",// 组件宝活跃值规则
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/valuation/valuation",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "组件宝估值规则",
+				"backgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/getActivityCode/getActivityCode",
+			"style": {
+				"titleNView": false,
+				"navigationBarTitleText": "签到码"
+			}
+		}
+	    ,{
+            "path" : "pages/examination/examination",
+            "style" : {
+				"navigationBarTitleText": "证书查询"
+			}
+        }
+        ,{
+            "path" : "pages/partnerApply/partnerApply",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/agreementEnergySaving/agreementEnergySaving",
+            "style" :                                                                                    
+            {
+                "titleNView": false,
+                "navigationBarTitleText": "智慧节能宝平台服务协议"
+            }
+            
+        }
+        ,{
+            "path" : "pages/privacyEnergySaving/privacyEnergySaving",
+            "style" :                                                                                    
+            {
+                "titleNView": false,
+                "navigationBarTitleText": "智慧节能宝隐私条款"
+            }
+            
+        }
+        ,{
+            "path" : "pages/previewEnergySaving/previewEnergySaving",
+            "style" :                                                                                    
+            {
+								"titleNView": false,
+                "navigationBarTitleText": "活跃值规则",// 智慧节能宝活跃值规则
+                "backgroundColor": "#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/userFaithEnergySaving/userFaithEnergySaving",
+            "style" :                                                                                    
+            {
+                "titleNView": false,
+                "navigationBarTitleText": "信用值规则",// 智慧节能宝信用规则
+                "backgroundColor": "#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/energyCompany/energyCompany",
+            "style" :                                                                                    
+            {
+								"titleNView": false,
+                "navigationBarTitleText": "公司介绍"
+            }
+            
+        }
+        ,{
+            "path" : "pages/energyAPP/energyAPP",
+            "style" :                                                                                    
+            {
+								"titleNView": false,
+                "navigationBarTitleText": "智慧节能宝APP"
+            }
+            
+        }
+        ,{
+            "path" : "pages/energySkill/energySkill",
+            "style" :                                                                                    
+            {
+								"titleNView": false,
+                "navigationBarTitleText": "节能技术"
+            }
+            
+        }
+        ,{
+            "path" : "pages/energyOfficer/energyOfficer",
+            "style" :                                                                                    
+            {
+								"titleNView": false,
+                "navigationBarTitleText": "首席节能官"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#FFFFFF"
+	}
+}
